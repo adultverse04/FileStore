@@ -25,7 +25,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6283520099"))
 PORT = os.environ.get("PORT", "8080")
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://akashmondal317689:tFW9FDQXA0zEvLPo@cluster0.qspl11g.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Directbot")
+DB_NAME = os.environ.get("DATABASE_NAME", "directbot")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002186438378"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002239875014"))
