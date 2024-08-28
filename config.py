@@ -27,7 +27,7 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://akashmondal317689:tFW9FDQXA0zEvLPo@cluster0.qspl11g.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002147367206"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002168219925"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002186438378"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
